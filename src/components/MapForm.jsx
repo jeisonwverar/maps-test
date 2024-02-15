@@ -42,7 +42,7 @@ import 'leaflet/dist/leaflet.css'
   return (
    
     <MapContainer 
-     style={{ height: '400px' }}
+     style={{ height: '400px',width:'400px' }}
      center={coordinates}
     zoom={13}
     scrollWheelZoom={false}
